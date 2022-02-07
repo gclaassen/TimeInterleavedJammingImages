@@ -1,0 +1,73 @@
+\begin{table*}[t]
+  \centering%
+  \caption{Radar simulation parameters}
+  \label{tab:radars}
+    \renewcommand{\arraystretch}{1.1}
+    \setlength{\tabcolsep}{0.59em}
+    \glsunset{pri}
+    \begin{tabular}{
+        >{\centering\arraybackslash\hspace{0pt}}m{\widthof{Radar}}
+        |
+        m{(\widthof{Weapon}-\widthof{000})/2} @{} r @{} c
+        |
+        m{(\widthof{Power}-\widthof{000})/2} @{} r @{} c
+        >{\centering\arraybackslash\hspace{0pt}}m{\widthof{Antenna}}
+        >{\centering\arraybackslash\hspace{0pt}}m{\widthof{quency}}
+        m{(\widthof{(pulses)}-\widthof{128})/2} @{} r @{} c
+        |
+        >{\raggedleft\arraybackslash\hspace{0pt}}m{\widthof{0\,000}}
+        m{(\widthof{Width}-\widthof{00.0})/2} @{} r @{.} l @{} c
+        |
+        >{\raggedleft\arraybackslash\hspace{0pt}}m{\widthof{0\,000}}
+        m{(\widthof{Width}-\widthof{00.0})/2} @{} r @{.} l @{} c
+        |
+        >{\raggedleft\arraybackslash\hspace{0pt}}m{\widthof{\gls{pri}}}
+        m{(\widthof{Width}-\widthof{00.0})/2} @{} r @{.} l @{} c
+        |
+        >{\raggedleft\arraybackslash\hspace{0pt}}m{\widthof{0\,000}}
+        m{(\widthof{Width}-\widthof{00.0})/2} @{} r @{.} l @{} c
+      }
+      \hline
+      & & &
+      & \multicolumn{8}{c|}{}
+      & \multicolumn{5}{c|}{\Gls{ts}}
+      & \multicolumn{5}{c|}{\Gls{ta}}
+      & \multicolumn{5}{c|}{\Gls{tt}}
+      & \multicolumn{5}{c }{\Gls{mg}} \\
+      Radar Type
+        & \multicolumn{3}{c|}{\parbox{\widthof{Weapon}}{\centering Weapon Range}}
+        & \multicolumn{3}{c}{\parbox{\widthof{Power}}{\centering Peak Power}}
+        & Antenna Gain
+        & Fre-quency
+        & \multicolumn{3}{c|}{\gls{cpi}}
+        & \centering\gls{pri}
+        & \multicolumn{4}{>{\centering\arraybackslash\hspace{0pt}}m{\widthof{Width}}|}{Pulse Width}
+        & \centering\gls{pri}
+        & \multicolumn{4}{>{\centering\arraybackslash\hspace{0pt}}m{\widthof{Width}}|}{Pulse Width}
+        & \centering\gls{pri}
+        & \multicolumn{4}{>{\centering\arraybackslash\hspace{0pt}}m{\widthof{Width}}|}{Pulse Width}
+        & \centering\gls{pri}
+        & \multicolumn{4}{>{\centering\arraybackslash\hspace{0pt}}m{\widthof{Width}}}{Pulse Width}
+        \\%[-0.3em]
+        & \multicolumn{3}{c|}{(km)}
+        & \multicolumn{3}{c}{(kW)}
+        & (dBi)
+        & (GHz)
+        & \multicolumn{3}{c|}{(pulses)}
+        & \centering(\textmu{}s) & \multicolumn{4}{c|}{(\textmu{}s)}
+        & \centering(\textmu{}s) & \multicolumn{4}{c|}{(\textmu{}s)}
+        & \centering(\textmu{}s) & \multicolumn{4}{c|}{(\textmu{}s)}
+        & \centering(\textmu{}s) & \multicolumn{4}{c}{(\textmu{}s)}
+        \\
+      \hline
+       1 & &  25 & & &  47 & & 15 &  6.4 & &  64 & &     32 & &  3&2 & &     32 & &  4&1 & &     30 & &  3&6 & &     28 & &  2&9 & \\
+       2 & &  50 & & &  25 & & 30 &  9.0 & & 128 & &    503 & &  0&3 & &    533 & &  0&3 & &    573 & &  0&3 & &    593 & &  0&3 & \\
+       3 & &  75 & & &   7 & & 28 &  8.8 & & 128 & &     65 & & 15&0 & &     58 & & 12&0 & &     50 & & 10&0 & &     42 & &  7&0 & \\
+       4 & & 100 & & & 100 & & 15 &  8.0 & & 128 & & 1\,073 & & 49&0 & &    689 & & 49&0 & &    345 & & 25&0 & & 1\,074 & & 30&0 & \\
+       5 & & 125 & & &  42 & & 25 &  3.0 & & 128 & & 1\,013 & & 12&5 & & 1\,413 & & 12&5 & &     20 & &  0&9 & &     12 & &  0&2 & \\
+      \hline
+    \end{tabular}
+    \glsreset{pri}
+\end{table*}
+
+
